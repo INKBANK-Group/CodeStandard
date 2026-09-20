@@ -6,10 +6,12 @@
 
 ```text
 project-root/
+│
+│
+├── main.py               # 项目执行入口
 ├── src/
 │   └── your_package/             # 项目核心包
 │       ├── __init__.py           # 暴露公共 API
-│       ├── main.py               # 项目执行入口
 │       │
 │       ├── core/                 # 全局共享的配置、基类、数据库连接
 │       │   ├── __init__.py
